@@ -22,4 +22,5 @@ Se asume conocimiento previo de programacion funcional. No es necesario ser un e
 
 * [Fantasy Land](https://github.com/fantasyland/fantasy-land)
 * [Blog de Tom Harding](http://www.tomharding.me/)
+* [Implementacion en TypeScript (fp-ts) de los ejemplos del blog](https://github.com/gcanti/fp-ts/tree/master/docs/fantas-eel-and-specification)
 * [Typeclassopedia](https://wiki.haskell.org/Typeclassopedia)
