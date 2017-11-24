@@ -10,7 +10,7 @@ Me gustaria ya arrancar produciendo algo de material. Hay varios temas de los qu
 
 Vamos a comenzar con los primeros tres articulos de la serie.
 
-El [primer articulo]([http://www.tomharding.me/2017/03/03/fantas-eel-and-specification/]) es sobre la libreria que eligen para implementar Tipos de Datos Algebraicos en JavaScript. Pueden considerarlo opcional.
+El [primer articulo](http://www.tomharding.me/2017/03/03/fantas-eel-and-specification/) es sobre la libreria que eligen para implementar Tipos de Datos Algebraicos en JavaScript. Pueden considerarlo opcional.
 
 El [segundo articulo](http://www.tomharding.me/2017/03/08/fantas-eel-and-specification-2/) es una introduccion a la notacion de tipos utilizada. Si ya estan familiarizados con Hindley-Milner pueden considerarlo opcional.
 
