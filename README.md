@@ -35,7 +35,7 @@ Participante | Track(s) | Proyecto
 [Martin Valdes de Leon (mentor)](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/martin_valdes_de_leon.md) | **P** **A** | -
 [Agustin Polo](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** **A** | -
 [Angel Java Lopez](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/ajlopez_aprendiz.md) | **P** **A** | -
-[Christian Gill](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
+[Christian Gill](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/christian_gill_estudiante.md) | **A** | -
 [Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** **A** | -
 [Consu Usnoc](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Emiliano Ferreyra](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
