@@ -16,7 +16,7 @@ Se asume conocimiento previo de programacion funcional. No es necesario ser un e
 
 # Indice
 
-* [Setoide](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide)
+* [Setoide y Ord](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord)
 
 # Referencias generales
 
