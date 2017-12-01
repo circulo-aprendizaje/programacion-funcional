@@ -36,7 +36,7 @@ Participante | Track(s) | Proyecto
 [Agustin Polo](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** **A** | -
 [Angel Java Lopez](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/ajlopez_aprendiz.md) | **P** **A** | -
 [Christian Gill](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/christian_gill_estudiante.md) | **A** | -
-[Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** **A** | -
+[Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** | -
 [Consu Usnoc](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Emiliano Ferreyra](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Ernesto Venecio](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
@@ -44,7 +44,7 @@ Participante | Track(s) | Proyecto
 [Gabriel Miranda](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Gustavo Olmedo](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/gustavo_olmedo.md) | **P** | -
 [Hernan Pieroni](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/hernan_pieroni.md) | **P** **A** | -
-[Juan Bono](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/juanbono.md) | **P** **A** | -
+[Juan Bono](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/juanbono.md) | **A** | -
 [Karen Serfati](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/keyserfati.md) | **P** **A** | -
 [Laura Ramos](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Lisandro Sebrie](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
