@@ -43,7 +43,7 @@ Participante | Track(s) | Proyecto
 [Fede Cano](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Gabriel Miranda](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Gustavo Olmedo](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/gustavo_olmedo.md) | **P** | -
-[Juan Bono](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/juanbono.md) | **P** **A** | -
+[Juan Bono](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/juanbono.md) | **A** | -
 [Karen Serfati](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/keyserfati.md) | **P** **A** | -
 [Laura Ramos](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Lisandro Sebrie](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
