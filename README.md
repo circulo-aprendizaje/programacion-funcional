@@ -37,7 +37,7 @@ Participante | Track(s) | Proyecto
 [Angel Java Lopez](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/ajlopez_aprendiz.md) | **P** **A** | -
 [Christian Gill](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/christian_gill_estudiante.md) | **A** | -
 [Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** | -
-[Consu Usnoc](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
+[Consu Usnoc](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** | -
 [Emiliano Ferreyra](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Ernesto Venecio](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
 [Fede Cano](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** **A** | -
