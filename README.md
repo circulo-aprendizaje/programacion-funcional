@@ -37,6 +37,7 @@ Participante | Track(s) | Proyecto
 [Christian Gill](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/christian_gill_estudiante.md) | **A** | -
 [Claudio Zurita](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/claudio_zurita.md) | **P** | -
 [Consu Usnoc](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/MISSING.md) | **P** | -
+[Diego Borda](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/diego_borda.md) | **P** | -
 [Diego Calderón](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/diego_calderon.md) | **P** **A** | -
 [Gustavo Olmedo](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/gustavo_olmedo.md) | **P** | -
 [Hernan Pieroni](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/hernan_pieroni.md) | **P** **A** | -
@@ -46,4 +47,3 @@ Participante | Track(s) | Proyecto
 [Mauro Carrero](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/mauro_carrero.md) | **P** **A** | -
 [Pablo Cazes](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/pablo_cazes.md) | **P** | -
 [Pablo Guillama](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/pablo_guillama.md) | **P** **A** | -
-[Diego Borda](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/diego_borda.md) | **P** | -
