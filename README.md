@@ -46,3 +46,4 @@ Participante | Track(s) | Proyecto
 [Mauro Carrero](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/mauro_carrero.md) | **P** **A** | -
 [Pablo Cazes](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/pablo_cazes.md) | **P** | -
 [Pablo Guillama](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/pablo_guillama.md) | **P** **A** | -
+[Diego Borda](https://github.com/circulo-aprendizaje/organizacion/blob/master/mensajes/diego_borda.md) | **P** | -
