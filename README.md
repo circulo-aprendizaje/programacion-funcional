@@ -20,7 +20,7 @@ Cada track cuenta con una carpeta en el repositorio, para organizar los contenid
 
 Fecha | Tema | Links
 --- | --- | ---
-7-Dec-2017 | **P** Repaso ES6 | N/A
+7-Dec-2017 | **P** Repaso ES6 | [YouTube](https://www.youtube.com/watch?v=mKxaBTKiFzA)
 _14-Dec-2017_ | **A** Abstracción en Programación funcional. Introducción a Type Classes. | N/A
 _20-Dec-2017_ | **P** Introducción a la Programación funcional | N/A
 
