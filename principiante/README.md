@@ -14,6 +14,9 @@ No es necesario conocimiento previo sobre programacion funcional, pero si es req
 
 Sugerimos leer el [material de repaso](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/00-repaso-es6) recomendado.
 
-# Indice
+# Agenda
 
-* [Repaso ES6](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/00-repaso-es6)
+Fecha | Tema | Links
+--- | --- | ---
+7-Dec-2017 | **P** [Repaso ES6](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/00-repaso-es6) | [YouTube](https://www.youtube.com/watch?v=mKxaBTKiFzA)
+_20-Dec-2017_ | **P** Introducción a la Programación funcional | N/A

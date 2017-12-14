@@ -14,9 +14,11 @@ A medida que vayamos avanzando, podemos detenernos en aplicaciones practicas, li
 
 Se asume conocimiento previo de programacion funcional. No es necesario ser un experto, pero va a ser importante estar familiarizado con conceptos funcionales como _currying_, aplicacion parcial, reducers, asi como manejar ciertos conceptos de programacion en general como ser sistemas de tipos (en particular tener experiencia con algun lenguaje de tipado estatico), patrones de abstraccion (templates/generics/abstract classes/interfaces).
 
-# Indice
+# Agenda
 
-* [Setoide y Ord](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord)
+Fecha | Tema | Links
+--- | --- | ---
+_14-Dec-2017_ | **A** [Abstracción en Programación funcional. Introducción a Type Classes.](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord) | N/A
 
 # Referencias generales
 

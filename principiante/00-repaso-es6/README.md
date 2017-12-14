@@ -18,3 +18,16 @@ Adicionalmente, no parte de ES6, vamos a necesitar:
 * [Comma Operator (Opcional)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator)
 
 **NOTA**: El material de referencia esta en ingles, pero MDN cuenta con traducciones. Se puede seleccionar otro idioma desde "Languages" en la esquina superior derecha.
+
+# YouTube
+
+El video de esta reunion esta disponible en [YouTube](https://www.youtube.com/watch?v=mKxaBTKiFzA).
+
+# Codigo de Ejemplo
+
+El codigo de ejemplo escrito durante la reunion esta disponible [aqui](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/00-repaso-es6/examples.js).
+
+# Links adicionales
+
+* [Lodash](https://lodash.com/docs)
+* [Lodash FP Guide](https://github.com/lodash/lodash/wiki/FP-Guide)
