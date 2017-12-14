@@ -21,3 +21,16 @@ Finalmente, el [tercer articulo](http://www.tomharding.me/2017/03/09/fantas-eel-
 Vamos a agregar tambien [Ord](http://www.tomharding.me/2017/04/09/fantas-eel-and-specification-3.5/), ya que es contextualmente mas apropiado.
 
 Acompañado de [la especificacion Fantasy Land para Setoid](https://github.com/fantasyland/fantasy-land#setoid) y para [Ord](https://github.com/fantasyland/fantasy-land#ord).
+
+# YouTube
+
+El video de esta reunion esta disponible en [YouTube](https://www.youtube.com/watch?v=rIUBzLdhbgY).
+
+# Codigo de Ejemplo
+
+El codigo de ejemplo escrito durante la reunion esta disponible [aqui](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord/examples.js).
+
+# Links adicionales
+
+* [Ramda](http://ramdajs.com/docs/)
+* [Sanctuary](https://sanctuary.js.org/)

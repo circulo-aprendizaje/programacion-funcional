@@ -18,7 +18,8 @@ Se asume conocimiento previo de programacion funcional. No es necesario ser un e
 
 Fecha | Tema | Links
 --- | --- | ---
-_14-Dec-2017_ | **A** [Abstracción en Programación funcional. Introducción a Type Classes.](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord) | N/A
+14-Dec-2017 | **A** [Abstracción en Programación funcional. Introducción a Type Classes.](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord) | [YouTube](https://www.youtube.com/watch?v=rIUBzLdhbgY)
+_4-Jan-2018_ | **A** Semigrupo, monoide y functor | N/A
 
 # Referencias generales
 
