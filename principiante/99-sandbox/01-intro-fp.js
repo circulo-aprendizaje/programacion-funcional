@@ -7,6 +7,8 @@ Por que?
 - Permite escribir menos codigo, y reusar mas.
 - Unidades mas pequeñas e independientes, faciles de entender, faciles de especificar, faciles de testear, naturalmente reutilizables.
 
+Composibilidad
+
 Por que no?
 - $$$. Lenguajes primitivos muy cerca del silicio. Lenguajes subsiguientes construidos encima bajo los mismos principios.
 - Otra manera de pensar.
