@@ -7,24 +7,33 @@
 
 // Operaciones genericas
 // Igualdad:
-//    Buscar un elemento en una coleccion. Contar ocurrencias de un elemento en una coleccion. Comparar colecciones en funcion de comparar sus elementos.
-//    Definiciones alternativas de igualdad (por ejemplo, mirar solo el signo, o solo el valor absoluto de un numero. o la cantidad de caracteres en un string o elementos en una coleccion)
+//    Buscar un elemento en una coleccion. Contar ocurrencias de un elemento en una coleccion.
+//    Comparar colecciones en funcion de comparar sus elementos.
+//    Definiciones alternativas de igualdad (por ejemplo, mirar solo el signo, o solo el valores
+//    absoluto de un numero. o la cantidad de caracteres en un string o elementos en una coleccion)
+
+const String = daggy.tagged('String', ['val'])
+
+String.prototype.equals = function (that) {
+  return this.val.length === that.val.length
+}
 
 // Orden total:
-//    Ordenar colecciones. Busqueda optimizada: Busqueda binaria. Ordenes sobre ordenes (`data Ordering`): Orden multicolumna.
+//    Ordenar colecciones. Busqueda optimizada: Busqueda binaria.
 //    Definiciones alternativas de orden (por ejemplo, inclusion sobre colecciones)
 
 // Semigrupo
 // concat :: Semigroup a => a ~> a -> a
-// a.concat(b).concat(c) === a.concat(b.concat(c))
+// (a.concat(b)).concat(c) === a.concat(b.concat(c))
 // Abstraccion: Cosas combinables
 
-// Asociatividad: Transformar una operacion sobre una serie de valores, en una serie de operaciones sobre sub-series de valores, con libertad de elegir el orden:
+// Asociatividad: Transformar una operacion sobre una serie de valores, en una serie de operaciones sobre
+// sub-series de valores, con libertad de elegir el orden:
 // a <> b <> c <> d <> e <> f
 
 // (((((a <> b) <> c) <> d) <> e) <> f)
 
-// (a <> b <> c) <> (d <> e <> f)
+// (a <> (b <> c)) <> (d <> (e <> f))
 
 // ((a <> b) <> (c <> d)) <> (e <> f)
 
@@ -32,30 +41,165 @@
 
 // string
 
+const StringS = daggy.tagged('StringS', ['val'])
+
+StringS.prototype.concat = function (that) {
+  return this.val + that.val
+}
+
+// ''
+
 // Array
 // No depende del tipo adentro del array
 
+Array.prototype._concat = function(that) {
+    return this.concat(that)
+}
+
+// []
+
 // Numeros?
+
+const Sum = daggy.tagged('Sum', ['val'])
+
+Sum.prototype.concat = function (that) {
+  return Sum(this.val + that.val)
+}
+
+// 0
+
+const Prod = daggy.tagged('Prod', ['val'])
+
+Prod.prototype.concat = function (that) {
+  return Prod(this.val * that.val)
+}
+
+// 1
+
+const Max = daggy.tagged('Max', ['val'])
+
+Max.prototype.concat = function (that) {
+  return Max(Math.max(this.val, that.val))
+}
+
+// -Infinity
+
+const Min = daggy.tagged('Min', ['val'])
+
+Min.prototype.concat = function (that) {
+  return Min(Math.min(this.val, that.val))
+}
+
+// Infinity
 
 // Booleanos?
 
+const All = daggy.tagged('All', ['val'])
+
+All.prototype.concat = function (that) {
+  return All(this.val && that.val)
+}
+
+// true
+
+const Any = daggy.tagged('Any', ['val'])
+
+Any.prototype.concat = function (that) {
+  return Any(this.val || that.val)
+}
+
+// false
+
 // First  & Last
+
+const First = daggy.tagged('First', ['val'])
+
+First.prototype.concat = function (that) {
+  return First(this.val)
+}
+
+const Last = daggy.tagged('Last', ['val'])
+
+Last.prototype.concat = function (that) {
+  return Last(that.val)
+}
 
 // Objetos?
 
+Object.prototype.concat = function (that) {
+    return {...this, ...that};
+    // return {...that, ...this};
+}
+
+// {}
+
 // Promises?
+
+// Promise a -> Promise a -> Promise a
+
+Promise.prototype.concat = function (that) {
+    return this.catch(() => that);
+}
+
+// Promise.reject()
 
 // Streams?
 
+const Maybe = daggy.taggedSum('Maybe', {
+    Just: ['val'], Nothing: []
+})
+
+Maybe.prototype.map = function (f) {
+    return this.cata({
+        Just: (val) => Maybe.Just(f(val)),
+        Nothing: () => Maybe.Nothing
+    })
+}
+
+Maybe.prototype.concat = function (that) {
+    return this.cata({
+        Just: (val) => this,
+        Nothing: () => that
+    })
+}
+
+// Ordenes sobre ordenes (`data Ordering`): Orden multicolumna.
+// Ord:
+// class Eq a => Ord a where
+// <=
+// compare :: a -> a -> Ordering
+// data Ordering = LT | EQ | GT
+
+// EQ <> b = b
+// a  <> b = a
+
+// [LT, EQ, GT]
+
 // Estructuras derivadas: Tuplas. ZipList. Records. Funciones?
 
+// [1,2,3] <> [2,3,4] = [3, 5, 7]
+
+// concat :: Semigroup b => (a -> b) -> (a -> b) -> (a -> b)
+
+Function.prototype.concat = function (that) {
+    return function (a) {
+        return this(a).concat(that(a))
+    }
+}
+
 // Concatenaciones arbitrarias: folds?
+
+// fold concat []
 
 // Monoide
 // Semigrupo, y ademas...
 // empty :: Monoid m => () -> m
 // M(x).concat(M.empty()) === M(x)
 // M.empty().concat(M(x)) === M(x)
+
+// a <> empty = a
+// empty <> a = a
+
 // Abstraccion: Cosas combinables con elemento neutro
 
 // TL;DR agregar un elemento neutro (respecto de concat) a un Semigrupo
@@ -64,12 +208,33 @@
 
 // Concatenaciones arbitrarias: folds
 
+// Monoide -> Semigrupo
+
+// Lista no vacia
+// data NonEmpty a = NonEmpty a (List a)
+
+const NonEmpty = daggy.tagged('NonEmpty', ['head', 'tail'])
+
+NonEmpty.prototype.map = function (f) {
+    return NonEmpty(f(this.head), this.tail.map(f))
+}
+
+NonEmpty.prototype.concat = function (that) {
+    return NonEmpty(this.head, this.tail.concat(that.head, that.tail))
+}
+
+// Generalizaciones:
+// Enteros positivos respecto de +
+// Conjuntos no vacios respecto de union
+
 // Aside: Free Objects
 // Free Semigroup
 // data NonEmpty a = NonEmpty a (List a)
 
 // Free Monoid
 // data FreeMonoid s = Empty | NonEmpty s
+
+// https://www.youtube.com/watch?v=VXl0EEd8IcU
 
 // Functor
 // map :: Functor f => f a ~> (a -> b) -> f b
@@ -89,8 +254,8 @@
 // Composicion
 // u.map(f).map(g) === u.map(x => g(f(x)))
 
-// map solo aplica la funcion. no puede hacer nada mas. por lo tanto, el resultado no cambia entre aplicar map 2 veces, con dos mitades de una transformacion
-// o aplicarlo una sola vez, con la transformacion completa
+// map solo aplica la funcion. no puede hacer nada mas. por lo tanto, el resultado no cambia entre aplicar map 2
+// veces, con dos mitades de una transformacion o aplicarlo una sola vez, con la transformacion completa
 
 // https://github.com/quchen/articles/blob/master/second_functor_law.md
 // https://www.schoolofhaskell.com/user/edwardk/snippets/fmap
@@ -99,27 +264,67 @@
 
 // Functores como contenedores
 
-// No hay garantias de poder producir valores, ni de poder acceder a ellos. Pero podemos transformar los valores uniformemente.
+// No hay garantias de poder producir valores, ni de poder acceder a ellos. Pero podemos transformar los valores
+// uniformemente.
 
 // No todos los contenedores son functores
 // (contra)Ejemplos: Endomorfismo y Contravariante
 
+// a -> Bool
+
+// map :: Functor f => f a ~> (a -> b) -> f b
+
+// (a -> Bool) -> (a -> b) -> (b -> Bool)
+
+// a -> a
+
+// (a -> a) -> (a -> b) -> (b -> b)
+
 // Functores como calculos/computos
 
-// No hay garantias de poder ejecutar el calculo, ni de como componer calculos entre si, ni secuenciarlos. Pero podemos hacer post-processing.
+// No hay garantias de poder ejecutar el calculo, ni de como componer calculos entre si, ni secuenciarlos.
+// Pero podemos hacer post-processing.
 
 // Ejemplos
 
 // Array
 
+Array.prototype.map
+
 // Objetos?
+
+Object.prototype.map = function (f) {
+    return Object.entries().reduce( (obj, [key, val]) => ({...obj, [key]: f(val)}), {})
+}
 
 // Promises?
 //    Future/Task/Maybe/Either
 
 // Funciones?
 
+// a -> b :: *
+// (->) a b
+// (->) :: * -> * -> *
+
+// f = Functor ((->) a :: * -> *)
+
+// (x -> a) -> (a -> b) -> (x -> b)
+
+Function.prototype.map = function (f) {
+    return function(x) {
+        return f(this(x))
+    }
+}
+
 // Tuplas?
+
+// (Int, String) :: *
+// (,) :: * -> * -> *
+// (,) Int String :: *
+
+// f = Functor ((,) a)
+
+// (x, a) -> (a -> b) -> (x, b)
 
 // Distintos functores aportan distintas interpretaciones a los valores "contenidos"/"computados"
 
