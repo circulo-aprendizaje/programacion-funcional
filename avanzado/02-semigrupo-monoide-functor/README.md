@@ -21,3 +21,18 @@ Con el [sexto articulo](http://www.tomharding.me/2017/03/27/fantas-eel-and-speci
 Acompañado de [la especificacion Fantasy Land para Semigrupo](https://github.com/fantasyland/fantasy-land#semigroup), para [Monoide](https://github.com/fantasyland/fantasy-land#monoid), y para [Functor](https://github.com/fantasyland/fantasy-land#functor).
 
 Adicionalmente, vamos a mencionar [Grupo](https://github.com/fantasyland/fantasy-land#group). No hay articulo en la serie, asi que los interesados pueden referirse directamente a [Wikipedia](https://en.wikipedia.org/wiki/Group_(mathematics)).
+
+# YouTube
+
+El video de esta reunion esta disponible en [YouTube](https://www.youtube.com/watch?v=ldIuDECuWm8).
+
+# Codigo de Ejemplo
+
+El codigo de ejemplo escrito durante la reunion esta disponible [aqui](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/02-semigrupo-monoide-functor/examples.js).
+
+# Links adicionales
+
+* [When Less is More and More is Less: Trade-Offs in Algebra](https://www.youtube.com/watch?v=VXl0EEd8IcU)
+* [The second Functor law is redundant](https://github.com/quchen/articles/blob/master/second_functor_law.md)
+* [The free theorem for fmap](https://www.schoolofhaskell.com/user/edwardk/snippets/fmap)
+* [Functors are computations](http://gelisam.blogspot.de/2014/01/functors-are-computations.html)
