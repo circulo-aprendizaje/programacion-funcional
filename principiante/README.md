@@ -19,5 +19,5 @@ Sugerimos leer el [material de repaso](https://github.com/circulo-aprendizaje/pr
 Fecha | Tema | Links
 --- | --- | ---
 7-Dec-2017 | **P** [Repaso ES6](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/00-repaso-es6) | [YouTube](https://www.youtube.com/watch?v=mKxaBTKiFzA)
-_11-Jan-2018_ | **P** [Introducción a la Programación funcional](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/01-intro-fp) | [YouTube](https://www.youtube.com/watch?v=PZDjRg455dU)
+11-Jan-2018 | **P** [Introducción a la Programación funcional](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/01-intro-fp) | [YouTube](https://www.youtube.com/watch?v=PZDjRg455dU)
 _8-Feb-2018_ | **P** [Una aplicación real](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/02-real-world) | N/A
