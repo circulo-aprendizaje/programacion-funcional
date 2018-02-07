@@ -24,6 +24,7 @@ Fecha | Tema | Links
 14-Dec-2017 | **A** [Abstracción en Programación funcional. Introducción a Type Classes.](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/01-setoide-ord) | [YouTube](https://www.youtube.com/watch?v=rIUBzLdhbgY)
 _11-Jan-2018_ | **P** [Introducción a la Programación funcional](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/01-intro-fp) | [YouTube](https://www.youtube.com/watch?v=PZDjRg455dU)
 _18-Jan-2018_ | **A** [Semigrupo, monoide y functor](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/avanzado/02-semigrupo-monoide-functor) | [YouTube](https://www.youtube.com/watch?v=ldIuDECuWm8)
+_8-Feb-2018_ | **P** [Una aplicación real](https://github.com/circulo-aprendizaje/programacion-funcional/tree/master/principiante/02-real-world) | N/A
 
 # Participantes
 
